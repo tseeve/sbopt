@@ -38,7 +38,7 @@ outfile             = currentdir + '/files/' + 'efficient_frontier' + '_n_' + st
 efficient_frontier_solver.saveArrays(outfile)
 
 samplesfilename = currentdir + '/files/' + 'samples' + '_n_' + str(n)
-generator.saveArray(samplesfilename)
+#generator.saveArray(samplesfilename)
 
 
 

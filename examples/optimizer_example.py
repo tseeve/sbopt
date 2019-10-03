@@ -10,9 +10,10 @@ from portfolio_models.GRBOptimizer import GRBOptimizer
 """
 Requires Gurobi license.
 """
-
-reader = RegimeReader(parentdir)
-m, d, a2_md_r, a3_mdd_Sigma = reader.readAll()
+m               = 3
+d               = 5
+reader          = RegimeReader(m,d,parentdir)
+a2_md_r, a3_mdd_Sigma   = reader.readAll()
 n = 100
 generator = ScenarioGenerator(n, a2_md_r, a3_mdd_Sigma)
 a3_mnd_R  = generator.generateSamplesMC()

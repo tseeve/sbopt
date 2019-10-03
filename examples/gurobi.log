@@ -2,3 +2,27 @@
 Gurobi 8.1.0 (win64, Python) logging started 08/29/19 11:49:17
 
 Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (win64, Python) logging started 09/26/19 15:13:45
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (win64, Python) logging started 09/26/19 15:15:46
+
+Academic license - for non-commercial use only
+Optimize a model with 305 rows, 306 columns and 3013 nonzeros
+Coefficient statistics:
+  Matrix range     [3e-02, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-01, 1e+00]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 304 rows, 306 columns, 3008 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0513503e+00   1.092519e+01   0.000000e+00      0s
+      61    1.0418625e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 61 iterations and 0.00 seconds
+Optimal objective  1.041862486e+00
